@@ -9,6 +9,7 @@ class GtkSharp < Formula
   depends_on 'pango'
   depends_on 'atk'
   depends_on 'gtk+'
+  depends_on 'libglade'
 
   def install
     args = ["--prefix=#{prefix}",
